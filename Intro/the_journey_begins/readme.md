@@ -47,5 +47,5 @@ checkPalindrome(inputString) = false;
 
 For inputString = "a", the output should be
 
-checkPalindrome(inputString) = true.
+gcheckPalindrome(inputString) = true.
 ```
