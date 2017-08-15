@@ -7,6 +7,7 @@ Given an array of integers, find the pair of adjacent elements that has the larg
 
 ```
 For inputArray = [3, 6, -2, -5, 7, 3], the output should be
+
 adjacentElementsProduct(inputArray) = 21.
 
 7 and 3 produce the largest product.
@@ -23,11 +24,13 @@ Given a sequence of integers as an array, determine whether it is possible to ob
 
 ```
 For sequence = [1, 3, 2, 1], the output should be
+
 almostIncreasingSequence(sequence) = false;
 
 There is no one element in this array that can be removed in order to get a strictly increasing sequence.
 
 For sequence = [1, 3, 2], the output should be
+
 almostIncreasingSequence(sequence) = true.
 
 You can remove 3 from the array to get the strictly increasing sequence [1, 2]. Alternately, you can remove 2 to get the strictly increasing sequence [1, 3].
@@ -68,6 +71,7 @@ matrix = [[0, 1, 1, 2],
           [0, 5, 0, 0],
           [2, 0, 3, 3]]
 the output should be
+
 matrixElementsSum(matrix) = 9.
 
 Here's the rooms matrix with unsuitable rooms marked with 'x':
@@ -75,6 +79,7 @@ Here's the rooms matrix with unsuitable rooms marked with 'x':
 [[x, 1, 1, 2],
  [x, 5, x, x],
  [x, x, x, x]]
+
 Thus, the answer is 1 + 5 + 1 + 2 = 9.
 ```
 
@@ -91,7 +96,10 @@ A 1-interesting polygon is just a square with a side of length 1. An n-interesti
 #### Example
 ```
 For n = 2, the output should be
+
 shapeArea(n) = 5;
+
 For n = 3, the output should be
+
 shapeArea(n) = 13.
 ```
